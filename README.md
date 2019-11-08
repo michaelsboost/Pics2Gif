@@ -26,13 +26,13 @@ Development
 
 Want to contribute? Great!  
 
-*<u>As of November 7, 2019 SVGAnimFrames is no longer an active project.  
+*<u>As of November 7, 2019 Pics2Gif is no longer an active project.  
 All updates as of that date and on are solely contributor based implementations.</u>*
 
 You can submit a pull request or simply share the project :)
 
-Of course SMIL2GIF is free and open source, so you can always fork the project and have fun :)
+Of course Pics2Gif is free and open source, so you can always fork the project and have fun :)
 
 [![ko-fi](https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0)](https://ko-fi.com/michaelsboost)
 
-If SVGAnimFrames was at all helpful for you. You can show your appreciation by [Donating via SquareCash](https://cash.me/$michaelsboost) and/or [PayPal](https://www.paypal.me/mikethedj4)
+If Pics2Gif was at all helpful for you. You can show your appreciation by [Donating via SquareCash](https://cash.me/$michaelsboost) and/or [PayPal](https://www.paypal.me/mikethedj4)
