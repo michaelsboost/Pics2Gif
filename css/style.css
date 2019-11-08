@@ -16,6 +16,10 @@
 #showprocess svg {
   width: 100%;
 }
+#btns a {
+  margin: 0;
+  margin-bottom: 10px;
+}
 #imgframes {
   white-space: nowrap;
   overflow-y: hidden;

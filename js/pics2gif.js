@@ -7,6 +7,8 @@ function previewFiles() {
     reader.onload = function(e) {
       var img = new Image();
       img.src = e.target.result;
+      img.classList.add("pointer");
+      img.setAttribute('onclick', "removeElm(this);");
       dimensions.src = e.target.result;
       animWidth.value = dimensions.width;
       animHeight.value = dimensions.height;
@@ -35,6 +37,8 @@ function dropfile(event) {
     var reader = new FileReader();
     reader.onload = function(e) {
       var img = new Image();
+      img.classList.add("pointer");
+      img.setAttribute('onclick', "removeElm(this);");
       img.src        = e.target.result;
       dimensions.src = e.target.result;
       animWidth.value = dimensions.width;
@@ -70,6 +74,10 @@ read.ondrop       = function(e) {
   return false;
 };
 
+function removeElm(elm) {
+  $(elm).remove();
+}
+
 // create the gif animation
 creategif.onclick = function() {
   // hide elements
@@ -82,6 +90,8 @@ creategif.onclick = function() {
   var images = [];
   $("#imgframes img").each(function() {
     images.push($(this).attr("src"));
+    $(this).removeAttr("onclick");
+    $(this).removeClass("pointer");
   });
   
   gifshot.createGIF({
