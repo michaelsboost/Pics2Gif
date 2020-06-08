@@ -5,9 +5,8 @@ var playGuide = function() {
       controls : 0,
       showinfo : 0
     },
-    src  : 'https://www.youtube.com/watch?v=ZVQaiXamOSU', // Source of the content
-    type : 'iframe', // Content type: image|inline|ajax|iframe|html (optional)
-    opts : {}
+    src  : 'https://www.youtube.com/embed/ZVQaiXamOSU',
+    type : 'iframe'
   });
 };
 
